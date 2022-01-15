@@ -1,2 +1,11 @@
 # Xiaobo.Shen
 Power Optimization in Device to Device Communications Underlying 5G Cellular Networks 
+
+Paper From：Radioengineering Journal
+
+@UnderReview{21-259, author={Q. {Wang} and X. {Shen}}, Journaltitle={Radioengineering}, title={Power Optimization in Device to Device Communications Underlying 5G Cellular Networks}, year={2022}, volume={}, number={}, pages={1-10}, doi={}, , month={},}
+
+
+本文研究了 5G 蜂窝网络基础设施下设备到设备 (D2D) 通信中基站 (BTS) 的功耗最小化和强波束成形方案。假设 BTS 不知道信道状态信息 (CSI)，并且只有其协方差的近似值可用。因此，基于CSI协方差矩阵的估计误差，提出了两种优化模型以最小化功耗和鲁棒的波束形成方案。第一个模型假设估计误差的上限限于它们的 Frobenius 范数。因此，第一个模型的主要目的是计算 BTS 中的波束形成，使基站在所有小区的 SINR 限制（信号干扰加噪声限制）下的功耗最小化。保证用户高于预设阈值。第二个模型确定了估计误差的统计分布，是CSI协方差矩阵不确定性的一个可能模型。就这一点而言，BTS 功耗以这样一种方式最小化，即保证用户在某个预定义阈值之上不被切断的概率。尽管这些是非凸优化问题，但已经表明可以使用半特定松弛技术凸地制定它们以获得它们的下边界。
+
+This research project investigates consumed power minimization and robust beamforming designs in the base station (BTS) in Device to Device (D2D) communications underlying the 5G cellular network. It is supposed that BTS is not aware of the channel state information (CSI), and only an approximation of their covariance is available. Therefore, based on the estimation error of CSI covariance matrices, two optimization models are presented to minimize the power consumption and robust beamforming designs. The first model assumes that the upper bound of the estimation errors is limited to their Frobenius norms. So, the main objective of the first model is to calculate the beamforming at the BTS in such a way that the power consumption of the base station is minimized under the constraint that the SINR (signal-to-interference plus noise ratio) of all cellular users is guaranteed to be above a specified predetermined threshold. The second model considers the statistical distribution of the estimation error is known, and a probabilistic model is considered for the uncertainty of CSI covariance matrices. In this sense, the power consumption of the BTS is minimized in such a way that the non-outage probabilities of users are guaranteed to be above a certain predefined threshold. Although these optimization problems are non-convex, it is shown that they can be reformulated to a convex form using a semidefinite relaxation technique to obtain their lower bounds.
